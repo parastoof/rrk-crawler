@@ -19,7 +19,7 @@ jalali_date_ten_days_ago = jalali_date_ten_days_ago.strftime("%Y/%m/%d")
 print(f"date of 10 days ago is: {jalali_date_ten_days_ago}")
 
 def main():
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get("https://rrk.ir")
     
     wait = WebDriverWait(driver, 10)
